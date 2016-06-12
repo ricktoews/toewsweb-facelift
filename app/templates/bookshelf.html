@@ -1,0 +1,13 @@
+  <table class="table table-striped">
+  <thead>
+    <tr><th>Thumbnail</th><th>Title</th><th>Author</th><th>My Thoughts</th></tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="book in books">
+      <td><img src="{{book.image}}"/></td>
+      <td>{{book.title}}</td>
+      <td>{{book.author}}</td>
+      <td>{{book.thoughts_intro}}</td>
+    </tr>
+  </tbody>
+  </table>

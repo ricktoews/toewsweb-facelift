@@ -1,0 +1,19 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button class="btn btn-primary" ng-click="go('bookshelf')">Bookshelf</button>
+      <button class="btn btn-primary" ng-click="samples">Code Samples</button>
+      <button class="btn btn-primary" ng-click="portfolio">Portfolio</button>
+      <button class="btn btn-primary" ng-click="posts">Posts</button>
+    </div>
+  </div>
+</nav>
+
+<h1>Toewsweb Home page</h1>
+
+<ul ng-controller="MainCtrl">
+  <li><a ui-sref="bookshelf">Bookshelf</a></li>
+  <li><a ui-sref="samples">Code Samples</a></li>
+  <li><a ui-sref="portfolio">Portfolio</a></li>
+  <li><a ui-sref="posts">Posts</a></li>
+</ul>
